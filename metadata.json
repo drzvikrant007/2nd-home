@@ -1,0 +1,6 @@
+{
+  "name": "Second Home (2nd Home) | Midnight Cloud Kitchen",
+  "description": "Night-delivery cloud kitchen in Biratnagar-03, Nepal. Good Food Feels Like Home. Open 6:00 PM to 3:00 AM daily with insulated thermal foil packing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

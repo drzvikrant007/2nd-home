@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#090d16" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <title>Second Home (2nd Home) | Midnight Cloud Kitchen</title>
+    <meta
+      name="description"
+      content="Night-delivery cloud kitchen in Biratnagar-03, Nepal. Good Food Feels Like Home. Open 6:00 PM to 3:00 AM daily with insulated thermal foil packing."
+    />
+
+    <!-- Favicon & PWA Manifest -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Second Home (2nd Home) | Midnight Cloud Kitchen" />
+    <meta
+      property="og:description"
+      content="Good Food Feels Like Home. Hot midnight delivery in Biratnagar-03, Nepal from 6:00 PM to 3:00 AM daily in insulated thermal foil packing."
+    />
+    <meta property="og:type" content="restaurant.restaurant" />
+    <meta property="og:image" content="/favicon.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Fonts: Cabinet Grotesk (Fontshare) and Plus Jakarta Sans (Google Fonts) -->
+    <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800,700,600,500,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- JSON-LD Structured Data Schema for Restaurant -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FastFoodRestaurant",
+        "name": "Second Home (2nd Home) Midnight Cloud Kitchen",
+        "image": "https://secondhomebrt.com/favicon.svg",
+        "telephone": ["+977-9761341498", "+977-9814110239"],
+        "servesCuisine": ["Nepali", "Indo-Chinese", "Fast Food", "Momo", "Biryani"],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Biratnagar-03",
+          "addressLocality": "Biratnagar",
+          "addressRegion": "Morang",
+          "postalCode": "56613",
+          "addressCountry": "NP"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday"
+            ],
+            "opens": "18:00",
+            "closes": "03:00"
+          }
+        ],
+        "priceRange": "रू 30 - रू 850",
+        "hasMenu": "https://secondhomebrt.com/#menu",
+        "sameAs": [
+          "https://facebook.com/secondhomebrt",
+          "https://instagram.com/secondhomebrt"
+        ]
+      }
+    </script>
+  </head>
+  <body class="bg-[#090d16] text-[#f3f4f6] font-sans antialiased selection:bg-orange-500/30 selection:text-orange-200 min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
